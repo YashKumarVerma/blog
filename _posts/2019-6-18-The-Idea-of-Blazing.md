@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blazing: The Idea behind the beginner's framework
+title: The concept of Blazing
 ---
 
 PHP, since it's birth in 1994, has been the first choice of entrants for backend applications. Since it's inception it has been readily supported by frameworks. With time the language evolved to become a dynamic server-side scripting language with an enormous set of features.
