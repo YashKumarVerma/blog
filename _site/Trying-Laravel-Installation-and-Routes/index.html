@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trying Laravel - Installation and Routes – Yash Kumar Verma – My Experiments with < / ></title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="I have decided to try out my hands on laravel after a while. This would have two distinct advantages. One is that I will get hands-on experience about the best in class PHP framework, and other is that I can find new features to implement in Blazing.
+
+" />
+    <meta property="og:description" content="I have decided to try out my hands on laravel after a while. This would have two distinct advantages. One is that I will get hands-on experience about the best in class PHP framework, and other is that I can find new features to implement in Blazing.
+
+" />
+    
+    <meta name="author" content="Yash Kumar Verma" />
+
+    
+    <meta property="og:title" content="Trying Laravel - Installation and Routes" />
+    <meta property="twitter:title" content="Trying Laravel - Installation and Routes" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/blog/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Yash Kumar Verma - My Experiments with < / >" href="/blog/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/blog/" class="site-avatar"><img src="https://avatars3.githubusercontent.com/u/14032427?s=460&v=4" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/blog/">Yash Kumar Verma</a></h1>
+            <p class="site-description">My Experiments with < / ></p>
+          </div>
+
+          <nav>
+            <a href="/blog/">Blog</a>
+            <a href="/blog/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>Trying Laravel - Installation and Routes</h1>
+
+  <div class="entry">
+    <p>I have decided to try out my hands on laravel after a while. This would have two distinct advantages. One is that I will get hands-on experience about the best in class PHP framework, and other is that I can find new features to implement in Blazing.</p>
+
+<p>Starting with laravel was pretty tough, as I decided to not use <strong><em>Homestead</em></strong> and go through the conventional composer installation. My PHP installation missed two extensions, and installing them has not been a difficult task.</p>
+
+<p>Then, a simple <code class="highlighter-rouge">php artisan serve</code> showed me this page. 🤩
+<img src="./../assets/trying-laravel/helloWorld.png" alt="Laravel HelloWorld" /></p>
+
+<h2 id="routing">Routing</h2>
+<hr />
+<p>Laravel has a vast routing mechanism. My current version of Blazing only has two <strong>HTTP</strong> verbs, whereas Laravel has six. I don’t think adding all these verbs would benefit, comprehending the userbase and needs of beginners. After all, laravel is known for it’s learning curve and Blazing is all about the absence of the same.</p>
+
+<h3 id="routematcharray-url-function"><code class="highlighter-rouge">Route::match(*array*, *url*, *function*)</code></h3>
+<p>Route::match is something I would like to implement in Blazing (<em>read my framework</em>). This allows using a single route to respond to different sorts of requests. Similar is <code class="highlighter-rouge">Route::any(*url*)</code> which responds to all types of requests.</p>
+
+<h3 id="routeredirectfromtostatus"><code class="highlighter-rouge">Route::redirect(*from*,*to*,*status*)</code></h3>
+<p>The redirect method is used to redirect the request with a custom status code like 301 for permanent, 302 for temporary, etc. I don’t think this would be required in Blazing as a simple <code class="highlighter-rouge">header()</code> function can be used to perform the equivalent.</p>
+
+<h3 id="routeviewurlview"><code class="highlighter-rouge">Route::view(*url*,*view*)</code></h3>
+<p>Now, this is handy! In my projects, I’ve sometimes defined controllers only to load a page for the user. With this function, one can instantly load the view without requiring a controller! This is unquestionably coming to blazing.</p>
+
+<h2 id="route-parameters">Route Parameters</h2>
+<hr />
+<p>Sometimes we will need to capture segments of the URL within your route. For example, you may need to capture a user’s ID from the URL. In such a situation, these are extraordinarily helpful and are considered one of the most important features of a framework, hence already in Blazing.</p>
+
+<p>Laravel defines a curly bracket syntax for variables in URLs. Something like <code class="highlighter-rouge">explore/user/{userId}</code> would pass a variable titled <code class="highlighter-rouge">userId</code> into the controller. In Blazing, however, there’s a diverse method. There, <code class="highlighter-rouge">explore/user/$userId</code> would pass the userId variable into the controller. I chose to use the <strong><em><code class="highlighter-rouge">$(dollar)</code></em></strong> syntax because variables in PHP are declared using a dollar and it would be natural for lads to associate. Easy for novices 🤗</p>
+
+<blockquote>
+  <p>Route parameters are always encased within {} braces and should consist of alphabetic characters, and may not contain a - character. Instead of using the - character, use an underscore (_).</p>
+</blockquote>
+
+<p>I’m a gratified developer saying that Blazing has no such limitation. (even a broken clock is right twice a day🤣). Variable names can contain numbers and can contain a dash(-)</p>
+
+<h2 id="its-vast">It’s VAST😕</h2>
+<hr />
+<p>There are many things which are not incorporated in this blog post. Things like optional parameters, regular expression constraints, global constraints, encoded forward slashes, named routes, generating URL to named routes, route groups, middlewares, namespaces, sub-domain routing, route prefixes, route name prefixes, rate limiting are left for enthusiasts. 😵</p>
+
+<p>Stay tuned for more posts on technology and computer science.</p>
+
+  </div>
+
+  <div class="date">
+    Written on June 27, 2019
+  </div>
+
+  
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:yk.verma2000@gmail.com"><i class="svg-icon email"></i></a>
+<a href="https://www.facebook.com/yashkumarverma"><i class="svg-icon facebook"></i></a>
+
+<a href="https://github.com/yashkumarverma"><i class="svg-icon github"></i></a>
+<a href="https://instagram.com/__yash_kumar_verma__"><i class="svg-icon instagram"></i></a>
+<a href="https://www.linkedin.com/in/yash-kumar-verma"><i class="svg-icon linkedin"></i></a>
+
+
+<a href="https://www.twitter.com/yash_kr_verma"><i class="svg-icon twitter"></i></a>
+<a href="http://stackoverflow.com/users/5131640/yash-kumar-verma"><i class="svg-icon stackoverflow"></i></a>
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-142182602-1', 'auto');
+		ga('send', 'pageview', {
+		  'page': '/blog/Trying-Laravel-Installation-and-Routes/',
+		  'title': 'Trying Laravel - Installation and Routes'
+		});
+	</script>
+	<!-- End Google Analytics -->
+
+
+  </body>
+</html>
