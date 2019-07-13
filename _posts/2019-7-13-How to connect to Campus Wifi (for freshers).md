@@ -33,10 +33,10 @@ Come on. That's all 😎. There are no additional steps.
 ---
 
 # Additional Finding
-If there's a mystery bothering you that what's the data limit, it's ***200 GB PER MONTH***
-
+> If there's a mystery bothering you that what's the data limit, it's ***200 GB PER MONTH***
 ![Login](./../assets/how-to-connect-to-campus-wifi/email-reply.png)
 
+>I've also noticed that we cannot connect two devices at a single time. 
 
 ---
 
