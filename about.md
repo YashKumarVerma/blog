@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Welcome to my blog 🤗
+
+If you need my assistance, feel free to mail me at yk.verma2000@gmail.com. If you're also in VIT Vellore, we can surely meet.
+
 
 ### More Information
+[Know more about me](https:yashkumarverma.github.io)
 
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[yk.verma2000@gmail.com](mailto:yk.verma2000@gmail.com)

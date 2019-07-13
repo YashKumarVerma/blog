@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2019-06-27T10:33:18+05:30</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Yash Kumar Verma</title><subtitle>My Experiments with &lt; / &gt;</subtitle><entry><title type="html">Trying Laravel - Installation and Routes</title><link href="http://localhost:4000/blog/Trying-Laravel-Installation-and-Routes/" rel="alternate" type="text/html" title="Trying Laravel - Installation and Routes" /><published>2019-06-27T00:00:00+05:30</published><updated>2019-06-27T00:00:00+05:30</updated><id>http://localhost:4000/blog/Trying-Laravel-Installation%20and-Routes</id><content type="html" xml:base="http://localhost:4000/blog/Trying-Laravel-Installation-and-Routes/">&lt;p&gt;I have decided to try out my hands on laravel after a while. This would have two distinct advantages. One is that I will get hands-on experience about the best in class PHP framework, and other is that I can find new features to implement in Blazing.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2019-07-13T15:20:10+05:30</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Yash Kumar Verma</title><subtitle>My Experiments with &lt; / &gt;</subtitle><entry><title type="html">How to Connect to VIT Campus Wifi (for freshers)</title><link href="http://localhost:4000/blog/How-to-connect-to-Campus-Wifi-(for-freshers)/" rel="alternate" type="text/html" title="How to Connect to VIT Campus Wifi (for freshers)" /><published>2019-07-13T00:00:00+05:30</published><updated>2019-07-13T00:00:00+05:30</updated><id>http://localhost:4000/blog/How%20to%20connect%20to%20Campus%20Wifi%20(for%20freshers)</id><content type="html" xml:base="http://localhost:4000/blog/How-to-connect-to-Campus-Wifi-(for-freshers)/">&lt;p&gt;Hello there ! fellow freshers. Yup. I’m a fresher as well! and just like me, most of you all would be just as frustrated regarding the condition of the cellular network in the campus area. The icing on the cake is that we don’t have access to the campus wifi as well! (not till I’m drafting)&lt;/p&gt;
+
+&lt;p&gt;So hold onto your seats and get ready for this. Let’s conquer the WIFI !!!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;step-1&quot;&gt;Step 1&lt;/h1&gt;
+
+&lt;p&gt;Step one. &lt;a href=&quot;http://122.15.77.132/vitnewregistration&quot;&gt;Visit this link&lt;/a&gt;  on your own network. (&lt;strong&gt;&lt;em&gt;repeat, on your own network. NOT ON WIFI.&lt;/em&gt;&lt;/strong&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./../assets/how-to-connect-to-campus-wifi/homepage.png&quot; alt=&quot;Login Page&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;step-2&quot;&gt;Step 2&lt;/h1&gt;
+&lt;p&gt;Step two. Fill in the details. You can get your email credentials in the VTOP profile. Next, log into your email and get the wifi credentials. From your email, note down the password along with your registration number.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./../assets/how-to-connect-to-campus-wifi/email.png&quot; alt=&quot;Email&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;step-3&quot;&gt;Step 3&lt;/h1&gt;
+&lt;p&gt;Step three. Connect to any open campus wifi wherever it’s available. (can’t help it if your hostels don’t have it open yet 🤣 ). Head over to Sign-In, then fill the details.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./../assets/how-to-connect-to-campus-wifi/login.png&quot; alt=&quot;Login&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;step-4&quot;&gt;Step 4&lt;/h1&gt;
+&lt;p&gt;Come on. That’s all 😎. There are no additional steps.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;additional-finding&quot;&gt;Additional Finding&lt;/h1&gt;
+&lt;p&gt;If there’s a mystery bothering you that what’s the data limit, it’s &lt;strong&gt;&lt;em&gt;200 GB PER MONTH&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./../assets/how-to-connect-to-campus-wifi/email-reply.png&quot; alt=&quot;Login&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Thanks, folks. Share with your mates to help them enjoy as well.&lt;/p&gt;</content><author><name></name></author><summary type="html">Hello there ! fellow freshers. Yup. I’m a fresher as well! and just like me, most of you all would be just as frustrated regarding the condition of the cellular network in the campus area. The icing on the cake is that we don’t have access to the campus wifi as well! (not till I’m drafting)</summary></entry><entry><title type="html">Trying Laravel - Installation and Routes</title><link href="http://localhost:4000/blog/Trying-Laravel-Installation-and-Routes/" rel="alternate" type="text/html" title="Trying Laravel - Installation and Routes" /><published>2019-06-27T00:00:00+05:30</published><updated>2019-06-27T00:00:00+05:30</updated><id>http://localhost:4000/blog/Trying-Laravel-Installation%20and-Routes</id><content type="html" xml:base="http://localhost:4000/blog/Trying-Laravel-Installation-and-Routes/">&lt;p&gt;I have decided to try out my hands on laravel after a while. This would have two distinct advantages. One is that I will get hands-on experience about the best in class PHP framework, and other is that I can find new features to implement in Blazing.&lt;/p&gt;
 
 &lt;p&gt;Starting with laravel was pretty tough, as I decided to not use &lt;strong&gt;&lt;em&gt;Homestead&lt;/em&gt;&lt;/strong&gt; and go through the conventional composer installation. My PHP installation missed two extensions, and installing them has not been a difficult task.&lt;/p&gt;
 
