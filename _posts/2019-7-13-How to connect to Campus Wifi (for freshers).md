@@ -17,7 +17,7 @@ Step one. [Visit this link](http://122.15.77.132/vitnewregistration)  on your ow
 ![Login Page](./../assets/how-to-connect-to-campus-wifi/homepage.png)
 
 # Step 2
-Step two. Fill in the details. You can get your email credentials in the VTOP profile. Next, log into your email and get the wifi credentials. From your email, note down the password along with your registration number.
+Step two. Fill in the details. You can get your email credentials in the VTOP profile. **Use that (vitstudent) email only**. Next, log into your email and get the wifi credentials. From your email, note down the password along with your registration number.
 
 ![Email](./../assets/how-to-connect-to-campus-wifi/email.png)
 
